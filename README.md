@@ -1,6 +1,9 @@
 ## this module allows you to check proxy.
 
-### You have as option: "url, type (http, https, socks4, socks5) and a file"
+#### You have as option: "url, type (http, https, socks4, socks5) and a file"
+
+
+[![npm package](https://nodei.co/npm/checker-proxy.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/checker-proxy/)
 
 __exemple__:
 
