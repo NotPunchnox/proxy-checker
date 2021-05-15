@@ -1,0 +1,32 @@
+{
+  "name": "checker-proxy",
+  "version": "1.0.1",
+  "description": "proxy checker, option: url, type (http, https, socks4, socks5), list...",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "devDependencies": {
+    "request": "^2.88.2",
+    "fs": "^0.0.1-security"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NotPunchnox/proxy-checker.git"
+  },
+  "keywords": [
+    "proxy checker",
+    "checker-proxy",
+    "package",
+    "node",
+    "punchnox",
+    "open source",
+    "slt cv"
+  ],
+  "author": "punchnox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NotPunchnox/proxy-checker/issues"
+  },
+  "homepage": "https://github.com/NotPunchnox/proxy-checker#readme"
+}

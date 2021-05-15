@@ -1,13 +1,4 @@
-##this module allows you to check proxies.
-
-#You have as option: "url, type (http, https, socks4, socks5) and a file"
-
-exemple:
-
-JacaScript (Framework nodejs)
-```js
-/*const proxycheck = require('./test')*/
-const proxycheck = require('checker-proxy')
+const proxycheck = require('../main.js')
 
 let config = {
     type: 'http',
@@ -29,25 +20,7 @@ l.forEach(a => {
             console.info(`\x1b[32mProxy: ${r.proxy}, type: ${r.type}, status: ${r.code} => valide.\x1b[0m`)
         }
     }).catch(e => {
-    	//return error
         console.error(e)
         process.exit()
     })
 })
-```
-
-```js
-return {
-	proxy: String,
-	type: String,
-	code: Number
-}
-
-/*if error*/
-return {
-	proxy: String,
-	type: String,
-	code: { type: Number, default: 500 },
-	err: String
-}
-```
