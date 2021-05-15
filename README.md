@@ -1,4 +1,4 @@
-## this module allows you to check proxies.
+## this module allows you to check proxy.
 
 ### You have as option: "url, type (http, https, socks4, socks5) and a file"
 
