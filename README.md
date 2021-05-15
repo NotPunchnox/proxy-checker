@@ -1,10 +1,10 @@
-##this module allows you to check proxies.
+## this module allows you to check proxies.
 
-#You have as option: "url, type (http, https, socks4, socks5) and a file"
+### You have as option: "url, type (http, https, socks4, socks5) and a file"
 
-exemple:
+__exemple__:
 
-JacaScript (Framework nodejs)
+JavaScript (_Framework nodejs_)
 ```js
 /*const proxycheck = require('./test')*/
 const proxycheck = require('checker-proxy')
@@ -38,16 +38,16 @@ l.forEach(a => {
 
 ```js
 return {
-	proxy: String,
-	type: String,
-	code: Number
+    proxy: String,
+    type: String,
+    code: Number
 }
 
 /*if error*/
 return {
-	proxy: String,
-	type: String,
-	code: { type: Number, default: 500 },
-	err: String
+    proxy: String,
+    type: String,
+    code: { type: Number, default: 500 },
+    err: String
 }
 ```
