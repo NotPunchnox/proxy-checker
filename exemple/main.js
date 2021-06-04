@@ -14,10 +14,10 @@ l.forEach(a => {
         proxy: a
     }).then(r => {
         if (r.code !== 200) {
-            console.info(`\x1b[31mProxy: ${r.proxy}, type: ${r.type}, status: ${r.code} => invalide.\x1b[0m`)
+            console.info(`\x1b[31mProxy: ${r.proxy}, type: ${r.type}, status: ${r.code} => invalid.\x1b[0m`)
         } else if (r.code == 200) {
             require('fs').appendFileSync(config.file, a + '\n')
-            console.info(`\x1b[32mProxy: ${r.proxy}, type: ${r.type}, status: ${r.code} => valide.\x1b[0m`)
+            console.info(`\x1b[32mProxy: ${r.proxy}, type: ${r.type}, status: ${r.code} => valid.\x1b[0m`)
         }
     }).catch(e => {
         console.error(e)
